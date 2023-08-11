@@ -30,3 +30,38 @@ A criação deste aplicativo irá trazer diversos benefícios a empresa e ao usu
 O público-alvo para o aplicativo de assistência técnica autorizada Apple é composto por usuários de produtos Apple que necessitam de serviços de reparo, suporte e manutenção para seus dispositivos. Esse grupo de pessoas abrange uma ampla gama de idades e interesses, mas compartilha a característica de possuir produtos da marca Apple e procurar soluções de assistência técnica confiáveis e convenientes.
 
 
+## Requisitos
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicamos uma técnica de priorização de requisitos e detalhamos, em sequência, como a técnica foi aplicada.
+
+A técnica MoSCoW foi aplicada para priorização dos requsitos:
+
+Must Have (Tenho que fazer)
+Should Have (Devo fazer)
+Could Have (Poderia fazer)
+Won’t Have (Não vou fazer)
+Nesse sentido a ordem de importância das tarefas vai seguindo uma ordem decrescente, em que "Must Have" são as tarefas mais relevantes e as "Won’t Have" são tarefas que podem ficar para depois.
+
+## Requisitos Funcionais
+ID	Descrição do Requisito	Prioridade
+RF-001	O sistema deverá permitir a criação de um perfil de usuário para o responsável do aparelho Apple ao seu e-mail.	ALTA
+RF-002	O sistema deverá permitir a alteração e a exclusão dos dados de usuários, nesse caso, excluindo também qualquer aparelho Apple  vinculado a ele.	ALTA
+RF-003	O sistema deverá permitir a inserção, a alteração e a exclusão dos dados de prestadores de serviços afiliados.	ALTA
+RF-004	O sistema deverá permitir a adição de equipamento ( modelo,tipo do equipamento, etc.), permitindo a exibição de seus dados básicos.	ALTA
+RF-005	O sistema deverá armazenar os dados  de manutenções efetuadas.	ALTA
+RF-006	O sistema deverá gerar relatórios sobre os dados preenchidos pelos usuários.	MÉDIA
+RF-007	O sistema deverá permitir a edição e a exclusão dos dados do aparelho Apple. 	MÉDIA
+RF-008	O sistema deve emitir lembretes para os usuários.	MÉDIA
+RF-009	O sistema deverá permitir a busca em lojas conveniadas próximas a sua localidade.	BAIXA
+## Requisitos não Funcionais
+ID	Descrição do Requisito	Prioridade
+RNF-001	O sistema deve ser responsivo para rodar em diversos dispositivos móveis	ALTA
+RNF-002	O sistema deve ser implementado utilizando React Native.	ALTA
+RNF-003	A persistência dos dados será feita no banco JSON Server.	MÉDIA
+RNF-004	O sistema deve processar requisições do usuário em no máximo 11 segundos.	BAIXA
+Restrições
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+
+ID	Restrição
+01	O projeto deverá ser entregue até 27/08/2023.
+02	Não pode ser desenvolvido um módulo de backend.
+03	Proibida a terceirização de desenvolvimento do sistema em sua totalidade ou de módulos isolados.
