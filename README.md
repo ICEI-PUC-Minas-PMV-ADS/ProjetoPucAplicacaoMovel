@@ -14,7 +14,7 @@ O aplicativo para a assistência técnica autorizada Apple foi projetado para fo
 * 
 * 
 * Jeosafa Boy Eller
-* 
+* Felipe Corrêa Carneiro
 
 ## Orientador
 
