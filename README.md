@@ -12,7 +12,7 @@ O aplicativo para a assistência técnica autorizada Apple foi projetado para fo
 
 * 
 * 
-* 
+* TAciana Emanuela Campos Vitorino
 * Jeosafa Boy Eller
 * Felipe Corrêa Carneiro
 
