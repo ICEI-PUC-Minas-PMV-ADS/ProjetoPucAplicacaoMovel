@@ -1,4 +1,4 @@
-# Apontei - Sistema de Controle de Ponto
+# Aplicação Móvel
 
 `Análise e desenvolvimento de Sistemas`
 
@@ -18,7 +18,7 @@ O aplicativo para a assistência técnica autorizada Apple foi projetado para fo
 
 ## Orientador
 
-* Bernardo Jeunon de Alencar
+* Professor Mateus Cursino
 
 ## Instruções de utilização
 
