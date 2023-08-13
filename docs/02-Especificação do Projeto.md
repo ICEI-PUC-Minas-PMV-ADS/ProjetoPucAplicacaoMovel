@@ -15,7 +15,7 @@
 
 ## Personas
 
-As personas levantadas durante o processo de entendimento do problema são apresentadas nas Tabela que se seguem.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Tabela que se seguem.
 
 | Cod   | Tipo do Usuário   | Descrição         |
 | ---   | ---               | ---               |
