@@ -6,19 +6,19 @@
 
 `Eixo 3`
 
-O aplicativo para a assistência técnica autorizada Apple foi projetado para fornecer aos clientes uma maneira conveniente e transparente de acompanhar o status dos reparos de seus dispositivos. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários uma ótima experiência com serviço contratado.   
+O aplicativo para a assistência técnica autorizada Apple foi projetado para fornecer aos clientes uma maneira conveniente e transparente de acompanhar o status dos reparos de seus dispositivos. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários uma ótima experiência com serviço contratado.
 
 ## Integrantes
 
-* 
-* 
-* TAciana Emanuela Campos Vitorino
-* Jeosafa Boy Eller
-* Felipe Corrêa Carneiro
+-
+- Ronald Justiniano Costa
+- TAciana Emanuela Campos Vitorino
+- Jeosafa Boy Eller
+- Felipe Corrêa Carneiro
 
 ## Orientador
 
-* Professor Mateus Cursino
+- Professor Mateus Cursino
 
 ## Instruções de utilização
 
