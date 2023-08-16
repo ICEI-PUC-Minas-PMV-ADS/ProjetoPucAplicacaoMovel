@@ -37,7 +37,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Cliente Fiel Apple        | receber notificações sobre o status do reparo do meu dispositivo | ficar atualizado sobre o progresso e estimativas de conclusão.             |
 | Usuário Empresarial       | um canal eficiente para agendar reparos                          | minimizar a interrupção nas atividades comerciais                          |
 
-## Especificações em Matriz de responsabilidade
+## Especificações em Matriz de rastreabilidade
 
 | Necessidade/Requisito            | Funcionalidade/Atividade                         | Evidência                               |
 | -------------------------------- | ------------------------------------------------ | --------------------------------------- |
