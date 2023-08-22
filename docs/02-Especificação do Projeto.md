@@ -49,3 +49,47 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Indicação de conclusão de reparo | Atualização do status para "Concluído"           | Mudança de status visível               |
 | Melhorar reputação da empresa    | Coletar avaliações dos clientes                  | Avaliações positivas recebidas          |
 | Fidelização do cliente           | Implementar programas de fidelidade              | Benefícios para usuários fiéis          |
+
+
+## Gestão de Orçamento
+
+| Orçamento                     |     (R$)         |
+| ----------------------------- | ------------ |
+| **Recursos Humanos**            | **150,000** |
+|   - Gerente de Projeto (4 meses)  | 12,000  |
+|   - Desenvolvedor (6 meses) x 5   | 138,000 |
+| **Hardware**                    | **15,000**  |
+|   - Computadores e Equipamentos   | 10,000  |
+|   - Dispositivos Móveis           | 5,000   |
+| **Rede**                        |  **5,000**   |
+|   - Equipamentos de Rede          | 3,000   |
+|   - Instalação e Configuração     | 2,000   |
+|  **Software**                    | **10,000**  |
+|   - Licenças de Software          | 8,000   |
+|   - Ferramentas de Desenvolvimento | 2,000  |
+|  **Serviços**                     | **8,000**  |
+|   - Consultoria Externa           | 5,000   |
+|   - Suporte Técnico               | 3,000   |
+| **Total**                       | **196,000** |
+
+Detalhes para cada item:
+
+- Recursos Humanos:
+   - Gerente de Projeto (4 meses): O Gerente de Projeto receberá R$ 12,000 pelo período de 4 meses.
+   - Desenvolvedores (6 meses) x 5: Cada um dos 5 desenvolvedores receberá R$ 23,000 (totalizando R$ 115,000) pelo período de 6 meses.
+
+- Hardware:
+   - Computadores e Equipamentos: O custo de hardware é de R$ 10,000 para adquirir computadores e outros equipamentos necessários.
+   - Dispositivos Móveis: R$ 5,000 para dispositivos móveis necessários para o desenvolvimento e teste.
+
+- Rede:
+   - Equipamentos de Rede: Os equipamentos de rede têm um custo de R$ 3,000.
+   - Instalação e Configuração: A instalação e configuração da rede têm um custo de R$ 2,000.
+
+- Software:
+   - Licenças de Software: R$ 8,000 para adquirir as licenças de software necessárias para o desenvolvimento.
+   - Ferramentas de Desenvolvimento: R$ 2,000 para adquirir ferramentas específicas de desenvolvimento.
+
+- Serviços:
+   - Consultoria Externa: Custa R$ 5,000 para contratar serviços de consultoria externa.
+   - Suporte Técnico: R$ 3,000 para serviços de suporte técnico ao longo do projeto.
