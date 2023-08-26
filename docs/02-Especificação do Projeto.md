@@ -1,4 +1,71 @@
-# Especificações do Projeto
+## Especificações do Projeto
+
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/AutoApp/blob/6e8341aac6887998ec783beca8ce97995d7e896a/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md"> Documentação de Contexto</a></span>
+
+
+Nesta seção, apresentamos o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições identificadas para o desenvolvimento deste projeto.
+
+## Personas
+
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Tabela que se seguem.
+
+| Cod | Tipo do Usuário               | Descrição                                                                                                                                                                                     |
+| --- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Usuário Leigo                 | Uma pessoa não técnico que possui um iPhone, mas tem dificuldades em lidar com problemas técnicos. Ele busca uma solução fácil para receber ajuda quando seu dispositivo apresenta problemas. |
+| 2   | Técnico com Certificado Apple | Um profissional que deseja usar a plataforma para acessar manuais de reparo e obter informações técnicas detalhadas sobre produtos Apple, para melhor atender seus clientes.                  |
+| 3   | Estudante Universitário       | Um estudante que possui um MacBook e depende muito dele para suas tarefas acadêmicas. Ele relata que procura uma maneira rápida de obter assistência em caso de falhas.                       |
+| 4   | Cliente Fiel Apple            | Um entusiasta da Apple com vários produtos da marca, busca uma plataforma unificada para gerenciar seus dispositivos e receber suporte quando necessário.                                     |
+| 5   | Usuário Empresarial           | Uma pequena empresa que utiliza dispositivos Apple em sua operação diária, ele precisa de um canal eficiente para agendar reparos e minimizar a interrupção nas atividades comerciais.
+
+## Histórias de Usuários
+
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
+
+| EU COMO... `PERSONA`      | QUERO/PRECISO ... `FUNCIONALIDADE`                               | PARA ... `MOTIVO/VALOR`                                                    |
+| ------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Usuário Leigo             | relatar problemas com meu iPhone                                 | receber instruções simples e obter assistência técnica de maneira fácil.   |
+| Técnico Certificado Apple | acessar manuais de reparo detalhados para produtos Apple         | executar reparos com mais eficácia e precisão.                             |
+| Estudante Universitário   | agendar reparos rápidos para o meu MacBook                       | evitar interrupções em minhas atividades acadêmicas e continuar produtivo. |
+| Cliente Fiel Apple        | receber notificações sobre o status do reparo do meu dispositivo | ficar atualizado sobre o progresso e estimativas de conclusão.             |
+| Usuário Empresarial       | um canal eficiente para agendar reparos                          | minimizar a interrupção nas atividades comerciais                          |
+
+## Requisitos
+
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicamos uma técnica de priorização de requisitos e detalhamos, em sequência, como a técnica foi aplicada.
+
+A técnica MoSCoW foi aplicada para priorização dos requsitos:
+
+- Must Have (Tenho que fazer)
+- Should Have (Devo fazer)
+- Could Have (Poderia fazer)
+- Won’t Have (Não vou fazer)
+
+Nesse sentido a ordem de importância das tarefas vai seguindo uma ordem decrescente, em que "Must Have" são as tarefas mais relevantes e as "Won’t Have" são tarefas que podem ficar para depois.
+
+### Requisitos Funcionais
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+| RF-001 | O sistema deverá permitir a criação de um perfil de usuário para o responsável do aparelho Apple ao seu e-mail.	ALTA 
+| RF-002 | OO sistema deverá permitir a alteração e a exclusão dos dados de usuários, nesse caso, excluindo também qualquer aparelho Apple  vinculado a ele.	ALTA
+| RF-003 | O sistema deverá permitir a inserção, a alteração e a exclusão dos dados de prestadores de serviços afiliados.	ALTA 
+| RF-004 | O sistema deverá permitir a adição de equipamento ( modelo,tipo do equipamento, etc.), permitindo a exibição de seus dados básicos.	ALTA
+| RF-005 |O sistema deverá armazenar os dados  de manutenções efetuadas.	ALTA
+| RF-006 | O sistema deverá gerar relatórios sobre os dados preenchidos pelos usuários. | MÉDIA |
+| RF-007 |O sistema deverá permitir a edição e a exclusão dos dados do aparelho Apple. | MÉDIA |
+| RF-008 | O sistema deve emitir lembretes para os usuários. | MÉDIA |
+| RF-009 | O sistema deverá permitir a busca em lojas conveniadas próximas a sua localidade.	BAIXA
+
+### Requisitos não Funcionais
+
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+| RNF-001 | O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
+| RNF-002 | O sistema deve ser implementado utilizando React Native. | ALTA |
+| RNF-003 | A persistência dos dados será feita no banco MySQL.  |  MÉDIA |
+| RNF-004 | O sistema deve processar requisições do usuário em no máximo 11 segundos. |  BAIXA |
+
+## Restrições
 
 1. **Objetivo Alvo**: Desenvolver uma aplicação móvel para dispositivos iOS (iPhone e iPad) que ofereça um canal de assistência de manutenção e reparo de produtos da Apple.
 
@@ -13,30 +80,7 @@
    | 5   | Acesso a guias de solução de problemas.    | Disponibilizar algumas guias básicas de solução de problemas para problemas comuns que os usuários possam enfrentar, como reinicialização de dispositivo, problemas de conexão etc. |
    | 6   | Avaliação e feedback pós-reparo.           | Após o reparo ser concluído, permitir que os usuários forneçam feedback sobre a qualidade do serviço.                                                                               |
 
-## Personas
-
-As personas levantadas durante o processo de entendimento do problema são apresentadas na Tabela que se seguem.
-
-| Cod | Tipo do Usuário               | Descrição                                                                                                                                                                                     |
-| --- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Usuário Leigo                 | Uma pessoa não técnico que possui um iPhone, mas tem dificuldades em lidar com problemas técnicos. Ele busca uma solução fácil para receber ajuda quando seu dispositivo apresenta problemas. |
-| 2   | Técnico com Certificado Apple | Um profissional que deseja usar a plataforma para acessar manuais de reparo e obter informações técnicas detalhadas sobre produtos Apple, para melhor atender seus clientes.                  |
-| 3   | Estudante Universitário       | Um estudante que possui um MacBook e depende muito dele para suas tarefas acadêmicas. Ele relata que procura uma maneira rápida de obter assistência em caso de falhas.                       |
-| 4   | Cliente Fiel Apple            | Um entusiasta da Apple com vários produtos da marca, busca uma plataforma unificada para gerenciar seus dispositivos e receber suporte quando necessário.                                     |
-| 5   | Usuário Empresarial           | Uma pequena empresa que utiliza dispositivos Apple em sua operação diária, ele precisa de um canal eficiente para agendar reparos e minimizar a interrupção nas atividades comerciais.        |
-
-## Histórias de Usuários
-
-A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
-
-| EU COMO... `PERSONA`      | QUERO/PRECISO ... `FUNCIONALIDADE`                               | PARA ... `MOTIVO/VALOR`                                                    |
-| ------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Usuário Leigo             | relatar problemas com meu iPhone                                 | receber instruções simples e obter assistência técnica de maneira fácil.   |
-| Técnico Certificado Apple | acessar manuais de reparo detalhados para produtos Apple         | executar reparos com mais eficácia e precisão.                             |
-| Estudante Universitário   | agendar reparos rápidos para o meu MacBook                       | evitar interrupções em minhas atividades acadêmicas e continuar produtivo. |
-| Cliente Fiel Apple        | receber notificações sobre o status do reparo do meu dispositivo | ficar atualizado sobre o progresso e estimativas de conclusão.             |
-| Usuário Empresarial       | um canal eficiente para agendar reparos                          | minimizar a interrupção nas atividades comerciais                          |
-
+        |        
 ## Especificações em Matriz de rastreabilidade
 
 | Necessidade/Requisito            | Funcionalidade/Atividade                         | Evidência                               |
